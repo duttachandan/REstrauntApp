@@ -1,0 +1,396 @@
+@media screen and (max-width:1163px) {
+    :root{
+        --h1pixel: 2rem;
+        --h3pixel:1rem;
+        --nav_color:#12202f;
+        --website_color: #ebe3cd;
+        --btn_color: #df581e;
+        --bigbtn_color:#6bb99c;
+        --highlight_txt_color:#eaa73b;
+        --footer_txt_color:#404040;
+        --h1pixel: 3rem;
+        --h3pixel:2rem;
+        --card_color: #faf8ef;
+    }
+    /*
+    ==========================
+          !Header Part
+    ==========================
+     */
+    .mainDiv{
+        overflow: hidden;
+    }
+
+    
+    .header{
+        margin-inline:3vw;
+        height:fit-content;
+    }
+    .Header_content{
+        gap:20px;
+        height:100vh;
+    }
+    .Header_text{
+        max-width: 200px;
+    }
+    
+    .Header_image{
+        flex-basis:90%;
+    }
+    .Covid_protocol img{
+        width:100%;
+        /* height:100%; */
+    }
+    /* 
+    =============
+        !Time Table Form
+    =============
+    */
+
+    .Time_table{
+        height:fit-content;
+        padding-block:20px;
+    }
+    .Time_table form{
+        flex-direction:column;
+    }
+    .Entryfield{
+        gap:20px;
+    }
+    .first_EntryField label,
+    .second_EntryField label,
+    .third_EntryField label{
+        font-weight: 800;
+        font-size:1.5rem;
+    }
+    #first_EntryField,
+    #second_EntryField,
+    #third_EntryField{
+        width:100%;
+    }
+    .first_EntryField input,
+    .second_EntryField input,
+    .third_EntryField input{
+        font-weight: 800;
+        width:100%;
+    }
+    .Submit_btn{
+        font-size: 1.5rem;
+        width:500px;
+        padding-block:30px;
+    }
+    /* 
+    ====================
+        !Food Categories
+    ==================== 
+    */
+    .food_cat{
+        height:fit-content;
+    }
+
+}
+@media screen and (max-width:768px){
+
+    .nav_web{
+        height:4vh;
+    }
+    /* 
+    ======================
+        !Nav Bar
+    ======================
+    */
+
+    .Main_btn{
+        height:0;
+        width:0;
+        display:none;
+        transition: 2s ease-in-out;
+    }
+    .navbar{
+        position:relative;
+    }
+    .Main_btn{
+        flex-direction:column;
+        height:fit-content;
+        background-color:var(--nav_color);
+        width:100vw;
+        position: absolute;
+        top:8vh;
+        right:-5vw;
+        border-radius: 20px 20px 0 0;
+    }
+    .Main_btn a{
+        color:white;
+        font-size:2.5rem;
+        width:100%;
+        height:100px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    .signup_btn{
+        display:none;
+        height:0;
+        width:0;
+        transition: 2s ease-in-out;
+    }
+    .signup_btn{
+        height: 90px;
+        background-color: var(--nav_color);
+        border-radius: 22px;
+        position:absolute;
+        top: 41vh;
+        left:-5vw;
+        width:100vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top:2px solid black;
+    }
+    .signup_btn h4{
+        color:var(--bigbtn_color);
+        font-size:2.5rem;
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        font-weight:200;
+    }
+    .hamberger{
+        display:block;
+        cursor: pointer;
+        font-size:2rem;
+    }
+    .hamberger:hover + .Main_btn{
+        display:block;
+    }
+
+    /* 
+    ===================
+        !Header PART
+    ===================
+     */
+
+    .header{
+        margin-bottom:20px;
+    }
+    .Header_content{
+        flex-direction: column-reverse;
+        height:100%;
+    }
+    .Header_image{
+        /* flex-basis:60%; */
+    }
+    .Header_image img{
+        width:100%;
+    }
+    
+    .Header_text{
+        height:fit-content;
+        max-width:100%;
+        z-index:100;
+    }
+    .Header_text div h1, 
+    .Header_text div h3,
+    .Header_text div p{
+        display: block;
+    }
+
+
+    .signup_btn{
+        display:none;
+    }
+    /* 
+    =============
+        !extra part of Header
+    =============
+    */
+    .extra_text{
+        margin-left:6vw;
+    }
+    
+    
+    /* 
+    ====================
+        !Our Restraunt
+    ====================
+    */
+
+    .Assay_about_restrau{
+        flex-direction:column;
+        height:fit-content;
+    }
+    .Assay_about_restrau div{
+        width:100%;
+    }
+
+    .lastAssay div:last-child{
+        margin-right:0;
+    }
+    .lastAssay div{
+        margin-right:0;
+    }
+    .Assay_about_restrau div:last-child img{
+        width:500px;
+    }
+    .Assay_text{
+        padding-top:20px;
+    }
+    .Assay_text h3{
+        font-size:1.8rem;
+    }
+    .Assay_text h4{
+        font-size:1.3rem;
+    }
+    .resp-btn{
+        min-width:200px !important;
+    }
+    /* 
+    ====================
+        !Words from the Chef
+    ====================
+    */
+    .Words_from_Chef{
+        flex-direction:column;
+        height:fit-content;
+    }
+    /* 
+    ====================
+        !Customer Say
+    ====================
+    */
+    .customer_say{
+        height:fit-content;
+    }
+    .box-cards{
+        flex-direction:column;
+        height:fit-content;
+    }
+    .cards_customer{
+        height:fit-content;
+        max-width:90%;
+    }
+
+    /*
+    ==========
+    !footer 
+    ==========
+     */
+     .Footer{
+        height:fit-content;
+     }
+     .Footer_subClass{
+        flex-direction:column;
+        gap:50px;
+        align-items:flex-start;
+        margin-inline:0;
+     }
+     .About_section,
+     .What_we_do_section{
+        padding-inline:10px;
+     }
+     .Sign_up_section{
+        flex-direction:column;
+        justify-content: center;
+        min-height:10vh;
+        width:100vw;
+        background:#404040;
+        /* padding-inline:5px; */
+        justify-content: center;
+        align-items: center;
+        padding-inline:10px;
+    }
+    .Sign_up_section h1{
+        display:none;
+    }
+    .Sign_up_section div{
+        gap:25px;
+    }
+    .Sign_up_section div h3{
+        font-size:0.8rem;
+        color:white;
+        font-weight:200;
+    }
+    .fa-brands{
+        font-size:0.8rem;
+        color:white;
+    }
+}
+@media screen and (max-width:588px) {
+
+    /* 
+    ======================
+        !Nav Bar
+    ======================
+    */
+    .Main_btn{
+        border-radius:0;
+        top:9vh;
+    }
+    .signup_btn{
+        height: 80px;
+        background-color: var(--nav_color);
+        border-radius:0;
+        position:absolute;
+        top: 74vh;
+        left:-5vw;
+        width:100vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top:2px solid black;
+    }
+    /* 
+    =======================
+        !Time Table form
+    =======================
+    */
+    .Submit_btn{
+        font-size: 1rem;
+        width:150px;
+        padding-block:20px;
+    }
+    .resp-md-btn{
+        font-size:1rem;
+        width:50px;
+    }
+    /* 
+    ====================
+        !Our Restraunt
+    ====================
+    */
+
+    .Assay_about_restrau div:last-child{
+        width:300px;
+    }
+    .Assay_about_restrau div:last-child img{
+        max-width:100%;
+    }
+    .Assay_text{
+        padding-top:20px;
+    }
+    .Assay_text h3{
+        font-size:1.5rem;
+    }
+    .Assay_text h4{
+        font-size:1rem;
+        font-weight: 200;
+    }
+    /* 
+    ====================
+        !Customer's Query to us
+    ====================
+    */
+
+    .Forms_Customers_query form input:first-child,
+    .Forms_Customers_query form input:nth-child(2){
+        width:60vw;
+        height:40px;
+        font-size:0.9rem;
+    }
+    .Forms_Customers_query form textarea{
+        width:80vw;
+        border-radius:40px;
+        padding-top:40px;
+    }
+}

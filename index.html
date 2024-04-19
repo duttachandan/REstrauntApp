@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restraunt Application</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/mediaQuery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainDiv" id="Home">
+      <!--
+        ======================
+        !Nav Bar
+        ======================
+      -->
+      <div class="nav_web flex">
+        <div class="flex navbar">
+          <div class="Main_logo" onclick="home()">
+            <h2>MenuR.</h2>
+          </div>
+          <div class="Main_btn flex">
+            <a class="btn" href="#Home">Home</a>
+            <a class="btn" href="#Food_categories">Menu</a>
+            <a class="btn" href="#StoryAboutUs">About Us</a>
+            <a class="btn" href="#Contactus">Contact</a>
+          </div>
+          <div onclick="" class="signup_btn">
+            <h4>Sign Up</h4>
+          </div>
+          <div class="hamberger">
+            <i class="fa-solid fa-bars hamberger"></i>
+          </div>
+        </div>
+      </div>
+      <!--
+        ===================
+        !Header PART
+        ===================
+      -->
+      <div class="header flex">
+        <div class="Header_content flex">
+          <div class="Header_text flex">
+            <div>
+              <h1>Eat, drink & Enjoy.</h1>
+              <h3>Your Restraunt is waiting for you.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur Laudantium, laborum?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repudiandae, quasi.
+              </p>
+              <a class="See_more_btn" href="#Home">Explore</a>
+            </div>
+          </div>
+
+          <div class="Header_image flex">
+            <img
+              class="Image_Food_consumer"
+              src="Images/Eating together-cuate.png"
+            />
+          </div>
+        </div>
+      </div>
+      <!--
+        =====================
+        !Extra part of header
+        =====================
+      -->
+      <div class="extra_text">
+        <a href="#">Book a Table <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <!--
+        ==========================
+        !Time Table Form
+        ==========================
+        -->
+      <div class="Time_table flex">
+        <form action="" class="flex Entryfield">
+          <div class="first_EntryField flex">
+            <label for="FirstField"
+              >Date <i class="fa-solid fa-caret-down"></i
+            ></label>
+            <input type="date" name="Date" id="FirstField" />
+          </div>
+          <div class="second_EntryField flex">
+            <label for="SecondField"
+              >Time <i class="fa-solid fa-caret-down"></i
+            ></label>
+            <input type="time" name="Date" id="SecondField" />
+          </div>
+          <div class="third_EntryField flex">
+            <label for="ThirdField"
+              >Mail <i class="fa-solid fa-caret-down"></i
+            ></label>
+            <input
+              type="email"
+              name="Date"
+              id="ThirdField"
+              placeholder="xyx@gmail.com"
+            />
+          </div>
+          <a href="#" class="Submit_btn resp-btn flex resp-md-btn">Check Availability</a>
+        </form>
+      </div>
+
+      <!--
+        =====================
+        !food Categories
+        =====================
+        -->
+      <div class="food_cat flex" id="Food_categories">
+        <div class="header_of_food_cat flex">
+          <h3>Delicious</h3>
+          <h1>Food Categories</h1>
+        </div>
+        <div class="categories flex">
+
+          <!-- ?1st Categories -->
+
+          <div class="card_of_food_categories flex">
+            <img src="/Images/Pizza sharing-bro.png" alt="" />
+            <h2>Pizza</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              amet numquam officiis placeat quae ex, consequuntur provident ut
+              est unde.
+            </p>
+            <a href="" class="See_more_btn read_more_btn">Read More</a>
+          </div>
+
+          <!-- ?2nd Categories -->
+
+          <div class="card_of_food_categories flex">
+            <img src="/Images/Hamburger-cuate.png" alt="" />
+            <h2>Hamburger</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis vero officiis provident, asperiores sapiente nulla!
+              Dignissimos, ex ipsum?
+            </p>
+            <a href="" class="See_more_btn read_more_btn">Read More</a>
+          </div>
+
+          <!-- ?3rd Categories -->
+
+          <div class="card_of_food_categories flex">
+            <img src="/Images/fruit salad-amico.png" alt="" />
+            <h2>Fruit Salad</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae enim esse reprehenderit ullam nihil hic? Lorem, ipsum
+              dolor.
+            </p>
+            <a href="" class="See_more_btn read_more_btn">Read More</a>
+          </div>
+
+          <!-- ?4th Categories -->
+          
+          <div class="card_of_food_categories flex">
+            <img src="/Images/cherry pie slice-cuate.png" alt="" />
+            <h2>Fruit Salad</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae enim esse reprehenderit ullam nihil hic? Lorem, ipsum
+              dolor.
+            </p>
+            <a href="" class="See_more_btn read_more_btn">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!--
+        ====================
+        !Our Restraunt
+        ====================
+      -->
+      <div class="O_restraunt flex" id="StoryAboutUs">
+        <div class="Assay_about_restrau flex">
+          <div class="Assay_text">
+            <h3>Story</h3>
+            <h1>Our Restraunt</h1>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              officiis, quibusdam minus porro vitae deleniti magnam eveniet
+              inventore similique repellendus adipisci perferendis ex ut
+              assumenda!
+            </h4>
+            <a href="#" class="See_more_btn read_more_btn resp-btn">Read more</a>
+          </div>
+          <div>
+            <img src="/Images/Eating together-rafiki.png" alt="" />
+          </div>
+        </div>
+        <div class="Assay_about_restrau flex lastAssay">
+          <div class="Assay_text">
+            <h3>Ingredients</h3>
+            <h1>Fresh and Healthy Ingredients</h1>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Praesentium hic necessitatibus quisquam recusandae ipsa sunt eius
+              cum. Beatae, vitae repellat.
+            </h4>
+            <a href="#" class="See_more_btn read_more_btn resp-btn">Read more</a>
+          </div>
+          <div>
+            <img src="/Images/Supermarket workers-cuate.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!--
+        ====================
+        !Words from the Chef
+        ====================
+      -->
+      <div class="Words_from_Chef flex">
+        <div class="Assay_text">
+          <h3>Words From</h3>
+          <h1>The Chef</h1>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt qui
+            fugit dolorem tempore enim corporis quisquam assumenda corrupti
+            repudiandae. Ex.
+          </h4>
+          <a href="#" class="See_more_btn read_more_btn resp-btn">Read more</a>
+        </div>
+        <div class="Chef_Image">
+          <img src="/Images/Chef-bro.png" alt="" />
+        </div>
+      </div>
+
+      <!--
+        ====================
+        !Customer Say
+        ====================
+      -->
+      <div class="customer_say">
+        <div class="customer_heading Assay_text flex">
+          <h3>What Our</h3>
+          <h1>Customer Says About Us</h1>
+        </div>
+        <div class="flex box_cards">
+          <!-- ?first card -->
+          <div class="cards_customer flex">
+            <div class="flex">
+              <div>
+                <img src="/Images/images (1).png" alt="" />
+              </div>
+              <div>
+                <h4>Jon Doe</h4>
+                <p>
+                  Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis magni iusto velit! Voluptatum numquam repellendus dolores
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ?2nd card -->
+          <div class="cards_customer flex">
+            <div class="flex">
+              <div>
+                <img src="/Images/images (1).png" alt="" />
+              </div>
+              <div>
+                <h4>Jon Doe</h4>
+                <p>
+                  Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis magni iusto velit! Voluptatum numquam repellendus dolores
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ?3rd card -->
+          <div class="cards_customer last_cards flex">
+            <div class="flex">
+              <div>
+                <img src="/Images/images (1).png" alt="" />
+              </div>
+              <div>
+                <h4>Jon Doe</h4>
+                <p>
+                  Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis magni iusto velit! Voluptatum numquam repellendus dolores
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ?4th Card-->
+          <div class="cards_customer last_cards flex">
+            <div class="flex">
+              <div>
+                <img src="/Images/images (1).png" alt="" />
+              </div>
+              <div>
+                <h4>Jon Doe</h4>
+                <p>
+                  Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis magni iusto velit! Voluptatum numquam repellendus dolores
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+        ====================
+        !Customer's Query to us
+        ====================
+      -->
+      <div class="Customers_Query flex" id="Contactus">
+        <div class="Header_Customers_query Assay_text flex">
+          <h3>Subscribe</h3>
+          <h1>To Our Newsletter.</h1>
+        </div>
+        <div class="Forms_Customers_query flex">
+          <form action="" class="flex">
+            <input type="text" name="" id="" placeholder="name">
+            <input type="email" name="" id="" placeholder="Mail">
+            <textarea placeholder="Message" rows="10"></textarea>
+            <a href="#" onclick="MessageSent()" class="Submit_btn Submit_form_Query flex">Send Message</a>
+          </form>
+        </div>
+      </div>
+
+      <!--
+        ====================
+        !Footer
+        ====================
+      -->
+      <div class="Footer">
+        <div class="Footer_subClass flex">
+          <ul class="About_section flex">
+            <li><h1>About</h1></li>
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Mission Statement</li>
+            <li>Terms & collection</li>
+            <li>Privacy Policy</li>
+          </ul>
+          <ul class="What_we_do_section flex">
+            <li><h1>What We Do</h1></li>
+            <li>News & stories</li>
+            <li>Publication</li>
+            <li>Take an Action</li>
+            <li>Recomendation</li>
+            <li>Action</li>
+          </ul>
+          <div class="Sign_up_section flex">
+            <h1>Sign Up To Recieve Our Newsletter.</h1>
+            <div class="FollowUs flex">
+              <h3>Follow Us on:</h3>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </divc>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/JavaScript/index.js"></script>
+  </body>
+</html>
