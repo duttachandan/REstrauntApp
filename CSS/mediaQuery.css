@@ -157,6 +157,12 @@
         align-items:center;
         font-weight:200;
     }
+    .signup_btn:hover{
+        height: 90px;
+        width: 100vw;
+        background-color: var(--bigbtn_color);
+        border-radius: 0;
+    }
     .hamberger{
         display:block;
         cursor: pointer;
@@ -178,9 +184,6 @@
     .Header_content{
         flex-direction: column-reverse;
         height:100%;
-    }
-    .Header_image{
-        /* flex-basis:60%; */
     }
     .Header_image img{
         width:100%;
